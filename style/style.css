@@ -1,0 +1,20 @@
+body {
+    padding: 0 20px;
+}
+
+.rect {
+    fill: white;
+    stroke: black;
+    fill-opacity: 0.5;
+    stroke-opacity: 0.5;
+    stroke-width: 5;
+    transition: 1.5s;
+
+}
+
+.rect:hover {
+    fill: yellow;
+    stroke: blue;
+    fill-opacity: 1;
+    stroke-opacity: 1;
+}
